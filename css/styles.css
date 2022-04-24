@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -55,12 +55,20 @@ h2 {
 }
 
 .title-image {
+    position: absolute;
     width: 60%;
     transform: rotate(25deg);
+    right: 25%
+}
+
+.iphone-div {
+    position: relative;
 }
 
 #features {
+   background-color: white;
    padding: 7% 15%;
+   position: relative;
 }
 
 .feature-box {
