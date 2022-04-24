@@ -107,3 +107,12 @@ p {
     width: 15%;
     margin: 10px 20px 10px;
 }
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
