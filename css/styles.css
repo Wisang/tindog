@@ -65,6 +65,17 @@ h2 {
     position: relative;
 }
 
+@media (max-width: 1024px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
 #features {
    background-color: white;
    padding: 7% 15%;
